@@ -17,14 +17,14 @@ function RootStack() {
   return (
     <Stack.Navigator>
       <Stack.Screen name="Home" component={ListaExemplos} />
-      <Stack.Screen name="Exemplo 1" component={Exemplo01} />
-      <Stack.Screen name="Exemplo 2" component={Exemplo02} />
-      <Stack.Screen name="Exemplo 3" component={Exemplo03} />
-      <Stack.Screen name="Exemplo 4" component={Exemplo04} />
-      <Stack.Screen name="Exemplo 5" component={Exemplo05} />
-      <Stack.Screen name="Exemplo 6" component={Exemplo06} />
-      <Stack.Screen name="Exemplo 7" component={Exemplo07} />
-      <Stack.Screen name="Exemplo 8" component={Exemplo08} />
+      <Stack.Screen name="Exemplo1" component={Exemplo01} />
+      <Stack.Screen name="Exemplo2" component={Exemplo02} />
+      <Stack.Screen name="Exemplo3" component={Exemplo03} />
+      <Stack.Screen name="Exemplo4" component={Exemplo04} />
+      <Stack.Screen name="Exemplo5" component={Exemplo05} />
+      <Stack.Screen name="Exemplo6" component={Exemplo06} />
+      <Stack.Screen name="Exemplo7" component={Exemplo07} />
+      <Stack.Screen name="Exemplo8" component={Exemplo08} />
     </Stack.Navigator>
   );
 }
