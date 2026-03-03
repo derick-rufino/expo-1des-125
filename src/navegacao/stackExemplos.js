@@ -10,10 +10,11 @@ import Exemplo05 from "../exemplos/ex05";
 import Exemplo06 from "../exemplos/ex06";
 import Exemplo07 from "../exemplos/ex07";
 import Exemplo08 from "../exemplos/ex08";
+import Exemplo09 from "../exemplos/ex09"
 
 const Stack = createNativeStackNavigator();
 
-function RootStack() {
+function StackExemplos() {
   return (
     <Stack.Navigator>
       <Stack.Screen name="Home" component={ListaExemplos} />
@@ -25,8 +26,9 @@ function RootStack() {
       <Stack.Screen name="Exemplo6" component={Exemplo06} />
       <Stack.Screen name="Exemplo7" component={Exemplo07} />
       <Stack.Screen name="Exemplo8" component={Exemplo08} />
+      <Stack.Screen name="Exemplo9" component={Exemplo09} />
     </Stack.Navigator>
   );
 }
 
-export default RootStack;
+export default StackExemplos;

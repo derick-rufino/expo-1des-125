@@ -28,13 +28,17 @@ import Revisao03 from "./src/revisao/rev03";
 
 import ListaExemplos from "./src/exemplos/lista-exemplos";
 
-import RootStack from "./src/navegacao/stack";
+import StackAtividades from "./src/navegacao/stackAtividades";
+import StackExemplos from "./src/navegacao/stackExemplos";
+import BottomTabs from "./src/navegacao/bottomTabs";
 
 export default function App() {
   return (
     <View style={styles.container}>
       <NavigationContainer>
-        <RootStack />
+        {/* <StackExemplos />
+        <StackAtividades /> */}
+        <BottomTabs />
       </NavigationContainer>
       <StatusBar style="auto" />
     </View>
